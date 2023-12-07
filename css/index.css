@@ -134,6 +134,10 @@ footer li:hover {
 	position: relative;
 }
 
+.dropdown-toggle::after {
+    border-top: none;
+}
+
 
 .dropdown:hover .dropdown-menu {
 	display: block;
@@ -167,8 +171,6 @@ footer li:hover {
 		opacity: 1;
 	}
 }
-
-
 
 @media screen and (max-width: 576px) {
 	.dropdown:hover > .dropdown-menu {
