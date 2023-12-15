@@ -110,6 +110,8 @@
 
 .navbar-light .navbar-toggler {
     border: 1px solid white;
+	outline: none;
+	box-shadow: none;
 }
 #button {
 	background-color:hsl(18, 100%, 62%);
