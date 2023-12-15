@@ -134,9 +134,9 @@ footer li:hover {
 	position: relative;
 }
 
-.dropdown-toggle::after {
-    /* border-top: none; */
-}
+/* .dropdown-toggle::after {
+    border-top: none;
+} */
 
 
 .dropdown:hover .dropdown-menu {
@@ -229,7 +229,9 @@ footer p {
     background-color:hsl(24, 83%, 65%);
     border: 1px solid hsl(24, 83%, 65%);
 }
-
+.fa-aquare {
+    
+}
 @media screen and (min-width: var(--laptop-min)) and (max-width: var(--laptop-max)) {
     
     
