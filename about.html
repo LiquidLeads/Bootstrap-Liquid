@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>About | Technovine Solutions</title>
+<title>About | Liquid Leads</title>
 
 <!-- <meta name="description" content="Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description." /> -->
 
@@ -47,7 +47,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         <li class="nav-item"><a href="/Bootstrap-Technovine/index.html" class="nav-link text-white" id="nav_object">Home</a></li>
         <li class="nav-item"><a href="/Bootstrap-Technovine/about.html" class="nav-link text-white" id="nav_object">About</a></li>
         <li class="nav-item dropdown" id="dropdown">
-          <a class="nav-link text-white" href="/Bootstrap-Technovine/services.html" role="button"  aria-expanded="false" id="nav_object">
+          <a class="nav-link dropdown-toggle text-white" href="/Bootstrap-Technovine/services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
           Services
           </a>
 			  <ul class="dropdown-menu">
@@ -65,31 +65,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 			</li>
 			<li class="nav-item"><a href="/Bootstrap-Technovine/contact.html" class="nav-link text-white" id="nav_object">Contact</a></li>
 
-			<script>
-				// Get the Services dropdown link element
-				const servicesDropdown = document.getElementById('servicesDropdown');
-			  
-				// Redirect to the services page when the dropdown link is clicked
-				servicesDropdown.addEventListener('click', function(event) {
-				  event.preventDefault(); // Prevent default link behavior
-				  window.location.href = this.getAttribute('href');
-				});
-			  
-				// Add the hover effect on desktop devices
-				if (window.matchMedia('(min-width: 576px)').matches) {
-				  // When the mouse enters the dropdown link, show the dropdown menu
-				  servicesDropdown.addEventListener('mouseenter', function() {
-					this.setAttribute('aria-expanded', 'true');
-					this.nextElementSibling.classList.add('show');
-				  });
-			  
-				  // When the mouse leaves the dropdown link or the dropdown menu, hide the dropdown menu
-				  servicesDropdown.addEventListener('mouseleave', function() {
-					this.setAttribute('aria-expanded', 'false');
-					this.nextElementSibling.classList.remove('show');
-				  });
-				}
-			  </script>
+			
 			<!-- TOGGLE MENU CLOSE -->
 		</div>
 
@@ -104,7 +80,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 			  <div class="carousel-caption mt-3 top-0 ">
 				<!-- <p class="mt-5 text-uppercase text-start">Contact Us</p> -->
 				<p class=" dtext-uppercase text-center" id="caption-p">We&nbsp;Are</p>
-				<h2 class="display-3 fw-bolder text-capitalize" id="caption-h2">Technovine Solutions</h2>
+				<h2 class="display-3 fw-bolder text-capitalize" id="caption-h2">Liquid Leads</h2>
 				<div>
 					<button class="btn btn-primary px-4 py-2 fs-5 mb-5" id="button">Submit&nbsp;a&nbsp;Ticket</button>
 				</div>		
