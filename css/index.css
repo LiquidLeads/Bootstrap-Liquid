@@ -15,7 +15,7 @@ body {
 }
 
 hr {
-	border: 1.5px solid hsl(210, 55%, 41%)
+	border: 1.5px solid hsl(198, 100%, 43%)
 }
 
 #about-heading {
@@ -32,7 +32,7 @@ hr {
 }
 
 .crd:hover {
-	background: hsl(210, 55%, 41%);
+	background: hsl(198, 100%, 43%);
 	color: #fff;
 	transition: 0.5s;
 } 
@@ -48,6 +48,9 @@ hr {
     background-color: hsl(0, 0%, 75%);
 }
 
+#website-section {
+    background-color: hsl(196, 66%, 82%);
+}
 footer a {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
@@ -60,12 +63,12 @@ footer a i {
 }
 
 footer li:hover {
-	color: hsl(24, 83%, 65%);
+	color: hsl(198, 100%, 43%);
 	transition: 0.2s;
   }
   
   footer i:hover {
-	color: hsl(24, 83%, 65%);
+	color: hsl(198, 100%, 43%);
 	transition: 0.2s;
   }
   
@@ -100,7 +103,7 @@ footer li:hover {
 } */
 
 #navbar-color {
-	background-color: hsl(210, 45%, 30%);
+	background-color:hsl(196, 65%, 82%);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -114,15 +117,15 @@ footer li:hover {
 }
 
 .carousel-indicators .active {
-	background-color: hsl(18, 100%, 62%);
+	background-color: hsl(198, 100%, 43%);
 }
 
 .carousel-control-next-icon {
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='hsl(18, 100%, 62%)'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='hsl(198, 100%, 43%)'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 .carousel-control-prev-icon {
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='hsl(18, 100%, 62%)'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='hsl(198, 100%, 43%)'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
 }
 
 #button {
@@ -141,14 +144,14 @@ footer li:hover {
 
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background-color: hsl(210, 45%, 30%);
+	background-color: hsl(196, 65%, 82%);
 }
 
 .dropdown-item:hover {
-	background-color: hsl(210, 55%, 41%);
+	background-color: hsl(198, 100%, 43%);
 }
 #services-link {
-    color: hsl(18, 100%, 62%);
+    color: hsl(208, 96%, 29%);
 }
 #nav_object {
 	position: relative;
@@ -161,7 +164,7 @@ footer li:hover {
 		transition: all 0.2s;
 		height: 2px;
 		width: 100%;
-		background: hsl(18, 100%, 62%);
+		background: hsl(198, 100%, 43%);
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -221,13 +224,13 @@ footer p {
 }
 
 #button {
-    background-color:hsl(18, 100%, 62%);
-    border: 1px solid hsl(18, 100%, 62%);
+    background-color:hsl(208, 96%, 29%);
+    border: 1px solid hsl(208, 96%, 29%);
 }
 
 #button:hover {
-    background-color:hsl(24, 83%, 65%);
-    border: 1px solid hsl(24, 83%, 65%);
+    background-color:hsl(198, 100%, 43%);
+    border: 1px solid hsl(198, 100%, 43%);
 }
 .fa-aquare {
 
