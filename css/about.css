@@ -32,15 +32,15 @@ body {
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  background-color: hsl(210, 45%, 30%);
+  background-color: hsl(196, 66%, 82%);
 }
 
 .dropdown-item:hover {
-  background-color: hsl(210, 55%, 41%);
+  background-color: hsl(198, 100%, 43%);
 }
 
 h3:after {
-  background: none repeat scroll 0 0 hsl(210, 55%, 41%);
+  background: none repeat scroll 0 0 hsl(198, 100%, 43%);
   bottom: -10px;
   content: "";
   display: block;
@@ -58,7 +58,7 @@ h3 {
 }
 
 #navbar-color {
-  background-color: hsl(210, 45%, 30%);
+  background-color: hsl(196, 66%, 82%);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -90,35 +90,35 @@ footer a i {
 
 .dropdown:hover>.dropdown-menu {
   display: block;
-  background-color: hsl(210, 45%, 30%);
+  background-color: hsl(196, 66%, 82%);
   margin-top: 0;
   width: 175px;
   .btn {
     color: hsl(0, 0%, 100%);
   }
   .dropdown-item:hover {
-    background-color: hsl(210, 55%, 41%);
+    background-color: hsl(198, 100%, 43%);
   }
 }
 
 footer li:hover {
-  color: hsl(24, 83%, 65%);
+  color: hsl(198, 100%, 43%);
   transition: 0.2s;
 }
 
 footer i:hover {
-  color: hsl(24, 83%, 65%);
+  color: hsl(198, 100%, 43%);
   transition: 0.2s;
 }
 
 #button {
-    background-color:hsl(18, 100%, 62%);
-    border: 1px solid hsl(18, 100%, 62%);
+    background-color:hsl(208, 96%, 29%);
+    border: 1px solid hsl(208, 96%, 29%);
 }
 
 #button:hover {
-    background-color:hsl(24, 83%, 65%);
-    border: 1px solid hsl(24, 83%, 65%);
+    background-color:hsl(198, 100%, 43%);
+    border: 1px solid hsl(198, 100%, 43%);
 }
 
 #caption-h2 {
@@ -127,7 +127,7 @@ footer i:hover {
 }
 
 #caption-p {
-	color: hsl(18, 100%, 62%);
+	color: hsl(208, 96%, 29%);
 }
 
 /* @media (min-width: 576px) {
@@ -160,7 +160,7 @@ footer i:hover {
 }
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background-color: hsl(210, 45%, 30%);
+	background-color: hsl(196, 66%, 82%);
 }
 
 /* #nav_object:hover {
@@ -173,7 +173,7 @@ footer i:hover {
   transition: all 0.2s;
   height: 2px;
   width: 100%;
-  background-color: hsl(18, 100%, 62%);
+  background-color: hsl(198, 100%, 43%);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -192,7 +192,7 @@ footer i:hover {
 		transition: all 0.2s;
 		height: 2px;
 		width: 100%;
-		background: hsl(18, 100%, 62%);
+		background: hsl(198, 100%, 43%);
 		position: absolute;
 		bottom: 0;
 		left: 0;
