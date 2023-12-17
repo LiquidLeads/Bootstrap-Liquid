@@ -58,7 +58,7 @@ h3 {
 }
 
 #navbar-color {
-  background-color: hsl(196, 66%, 82%);
+  background-color: hsl(208, 75%, 35%);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -160,7 +160,7 @@ footer i:hover {
 }
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background-color: hsl(196, 66%, 82%);
+	background-color: hsl(208, 75%, 35%);
 }
 
 /* #nav_object:hover {
