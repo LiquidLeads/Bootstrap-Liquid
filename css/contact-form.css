@@ -11,6 +11,9 @@ body {
 .dropdown-item:hover {
 	background-color: hsl(198, 100%, 43%);
 }
+.dropdown-menu{
+    --bs-dropdown-bg: hsl(208, 75%, 35%);
+}
 
 .form-area {
 	padding-top: 7%;
