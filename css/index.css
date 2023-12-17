@@ -48,9 +48,9 @@ hr {
     background-color: hsl(0, 0%, 75%);
 }
 
-#website-section {
-    background-color: hsl(196, 66%, 82%);
-}
+/* #website-section {
+    background-color: hsl(208, 75%, 35%);
+} */
 footer a {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
@@ -103,7 +103,7 @@ footer li:hover {
 } */
 
 #navbar-color {
-	background-color:hsl(196, 65%, 82%);
+	background-color:hsl(208, 75%, 35%);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -144,7 +144,7 @@ footer li:hover {
 
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background-color: hsl(196, 65%, 82%);
+	background-color: hsl(208, 75%, 35%);
 }
 
 .dropdown-item:hover {
@@ -232,7 +232,7 @@ footer p {
     background-color:hsl(198, 100%, 43%);
     border: 1px solid hsl(198, 100%, 43%);
 }
-.fa-aquare {
+.fa-square {
 
 }
 @media screen and (min-width: var(--laptop-min)) and (max-width: var(--laptop-max)) {

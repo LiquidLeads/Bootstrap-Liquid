@@ -5,11 +5,11 @@ body {
 }
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background-color: hsl(210, 45%, 30%);
+	background-color: hsl(208, 75%, 35%);
 }
 
 .dropdown-item:hover {
-	background-color: hsl(210, 55%, 41%);
+	background-color: hsl(198, 100%, 43%);
 }
 
 .form-area {
@@ -19,7 +19,7 @@ body {
 	box-shadow: 0 2px 20px -5px hsla(0, 0%, 0%, 0.5);
   }
   .left {
-	background: hsl(210, 45%, 30%);
+	background: hsl(208, 75%, 35%);
 	padding: 200px 98px;
   }
   .left h2 {
@@ -51,7 +51,7 @@ body {
   .right button {
 	border: none;
 	border-radius: 0;
-	background: hsl(18, 100%, 62%);
+	background: hsl(208, 96%, 29%);
 	width: 180px;
 	color: #fff;
 	padding: 15px 0;
@@ -61,7 +61,7 @@ body {
 	cursor: pointer;
   }
   .right button:hover {
-	background-color: hsl(18, 100%, 62%);
+	background-color: hsl(198, 100%, 43%);
   }
   #nav_object {
 	position: relative;
@@ -73,7 +73,7 @@ body {
 	transition: all 0.2s;
 	height: 2px;
 	width: 100%;
-	background: hsl(18, 100%, 62%);
+	background: hsl(198, 100%, 43%);
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -84,13 +84,13 @@ body {
 }
 
 #button {
-    background-color:hsl(18, 100%, 62%);
-    border: 1px solid hsl(18, 100%, 62%);
+    background-color:hsl(208, 96%, 29%);
+    border: 1px solid hsl(208, 96%, 29%);
 }
 
 #button:hover {
-    background-color:hsl(24, 83%, 65%);
-    border: 1px solid hsl(24, 83%, 65%);
+    background-color:hsl(198, 100%, 43%);
+    border: 1px solid hsl(198, 100%, 43%);
 }
 
 #caption-h2 {
@@ -99,7 +99,7 @@ body {
 }
 
 #caption-p {
-	color: hsl(18, 100%, 62%);
+	color: hsl(208, 96%, 29%);
 }
 
   /*responsive*/

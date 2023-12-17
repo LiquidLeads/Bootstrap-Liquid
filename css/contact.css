@@ -5,11 +5,11 @@
 } */
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background-color: hsl(210, 45%, 30%);
+	background-color: hsl(196, 66%, 82%);
 }
 
 .dropdown-item:hover {
-	background-color: hsl(210, 55%, 41%);
+	background-color: hsl(196, 66%, 82%);
 }
 
 .form-area {
@@ -51,7 +51,7 @@
 .right button {
 	border: none;
 	border-radius: 0;
-	background: hsl(18, 100%, 62%);
+	background: hsl(208, 96%, 29%);
 	width: 180px;
 	color: #fff;
 	padding: 15px 0;
@@ -61,7 +61,7 @@
 	cursor: pointer;
 }
 .right button:hover{
-    background-color: hsl(18, 100%, 62%);
+    background-color: hsl(198, 100%, 43%);
 }
 
 
@@ -114,8 +114,8 @@
 	box-shadow: none;
 }
 #button {
-	background-color:hsl(18, 100%, 62%);
-	border-color: hsl(18, 100%, 62%);
+	background-color:hsl(208, 96%, 29%);
+	border-color: hsl(208, 96%, 29%);
 }
 
 #nav_object {
