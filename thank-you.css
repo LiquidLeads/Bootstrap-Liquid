@@ -54,26 +54,9 @@ body {
     hyphens: auto;
 }
 
-.main-content {
-    margin: 0 auto;
-    max-width: 820px;
-}
-.main-content__checkmark {
-    font-size: 4.0625rem;
-    line-height: 1;
-    color: #24b663;
-    
-}
-.main-content__body {
-    margin: 20px 0 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    line-height: 1.4;
-}
 
-#thank-you-message {
-    
-}
+
+
 
 
 
@@ -86,6 +69,7 @@ body {
     }
     .main-content__checkmark {
         font-size: 9.75rem;
+        color: #24b663 !important;
     }
     .main-content__body {
         font-size: 1.25rem;
@@ -98,7 +82,7 @@ body {
 }
 
 #navbar-color {
-    background-color: hsl(210, 45%, 30%);
+    background-color: hsl(208, 75%, 35%);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -117,14 +101,17 @@ hr {
 
 
 #button {
-    background-color:hsl(18, 100%, 62%);
-    border-color: hsl(18, 100%, 62%);
+    background-color:hsl(208, 96%, 26%);
+    border-color: hsl(208, 96%, 26%);
 }
 
 #nav_object {
     position: relative;
 }
 
+.fa-check {
+    color: green !important;
+}
 
 @media (min-width: 576px) {
     #nav_object::after {
@@ -133,7 +120,7 @@ hr {
         transition: all 0.2s;
         height: 2px;
         width: 100%;
-        background: hsl(18, 100%, 62%);
+        background: hsl(198, 100%, 43%);
         position: absolute;
         bottom: 0;
         left: 0;
@@ -169,19 +156,19 @@ footer a  i {
 
 @media (min-width: 576px) {
 	footer li:hover {
-		color: hsl(24, 83%, 65%);
+		color: hsl(198, 100%, 43%);
 		transition: 0.2s;
 	}
 	
 	footer i:hover {
-		color: hsl(24, 83%, 65%);
+		color: hsl(198, 100%, 43%);
 		transition: 0.2s;
 	}
-  
+}
   
 .dropdown-menu {
     /* display: block; */
-    background-color: hsl(210, 45%, 30%);
+    background-color: hsl(208, 75%, 35%);
     margin-top: 0;
     width: 175px;
 
@@ -190,9 +177,10 @@ footer a  i {
     }
 
     .dropdown-item:hover {
-        background-color: hsl(210, 55%, 41%);
+        background-color: hsl(198, 100%, 43%);
     }
 }
+
 
 /* OLD DROPDOWN HOVER CODE START */
 
