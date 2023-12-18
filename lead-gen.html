@@ -25,7 +25,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 		<!-- NAVIGATION BAR START -->
 	<nav class="navbar navbar-expand-lg navbar-light  py-3 sticky-top" id="navbar-color">
 		<div class="container">
-		<a href="/Bootstrap-Technovine/index.html">
+		<a href="./">
 			<img src="./PNG/Liquidleads-long.png"  height="45" width="225" class="img-fluid"/>
 		</a>
 
@@ -44,10 +44,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 		<!-- TOGGLE MENU START -->
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a href="/Bootstrap-Technovine/index.html" class="nav-link text-white" id="nav_object">Home</a></li>
-        <li class="nav-item"><a href="/Bootstrap-Technovine/about.html" class="nav-link text-white" id="nav_object">About</a></li>
+        <li class="nav-item"><a href="./" class="nav-link text-white" id="nav_object">Home</a></li>
+        <li class="nav-item"><a href="./about" class="nav-link text-white" id="nav_object">About</a></li>
         <li class="nav-item dropdown" id="dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="/Bootstrap-Technovine/services.html" role="button"  aria-expanded="false" id="">
+          <a class="nav-link dropdown-toggle text-white" href="" role="button"  aria-expanded="false" id="">
           Services
           </a>
 			  <ul class="dropdown-menu">
@@ -55,41 +55,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 			  <li><a class="dropdown-item" href="#">Another action</a></li> -->
 			  <!-- <li><hr class="dropdown-divider"></li> -->
 			  <!-- <li><a class="dropdown-item text-capitalize text-white" href="/Bootstrap-Liquid/digital-marketing.html">Digital Marketing</a></li> -->
-			  <li><a class="dropdown-item text-white text-capitalize" href="/Bootstrap-Liquid/lead-gen.html">Lead Generation</a></li>
-			  <li><a class="dropdown-item text-white text-capitalize" href="/Bootstrap-Liquid/seo.html">SEO</a></li>
-			  <li><a class="dropdown-item text-white text-capitalize" href="/Bootstrap-Liquid/employee-gen.html">Employee Generation</a></li>
-			  <li><a class="dropdown-item text-white text-capitalize" href="/Bootstrap-Liquid/ai-automations.html">AI Automations</a></li>
+			  <li><a class="dropdown-item text-white text-capitalize" href="./lead-gen">Lead Generation</a></li>
+			  <li><a class="dropdown-item text-white text-capitalize" href="./seo">SEO</a></li>
+			  <li><a class="dropdown-item text-white text-capitalize" href="./employee-gen">Employee Generation</a></li>
+			  <li><a class="dropdown-item text-white text-capitalize" href="./ai-automations">AI Automations</a></li>
 		
 			  
 			  </ul>
 			</li>
-			<li class="nav-item"><a href="/Bootstrap-Technovine/contact.html" class="nav-link text-white" id="nav_object">Contact</a></li>
+			<li class="nav-item"><a href="./contact" class="nav-link text-white" id="nav_object">Contact</a></li>
 
-			<script>
-				// Get the Services dropdown link element
-				const servicesDropdown = document.getElementById('servicesDropdown');
-			  
-				// Redirect to the services page when the dropdown link is clicked
-				servicesDropdown.addEventListener('click', function(event) {
-				  event.preventDefault(); // Prevent default link behavior
-				  window.location.href = this.getAttribute('href');
-				});
-			  
-				// Add the hover effect on desktop devices
-				if (window.matchMedia('(min-width: 576px)').matches) {
-				  // When the mouse enters the dropdown link, show the dropdown menu
-				  servicesDropdown.addEventListener('mouseenter', function() {
-					this.setAttribute('aria-expanded', 'true');
-					this.nextElementSibling.classList.add('show');
-				  });
-			  
-				  // When the mouse leaves the dropdown link or the dropdown menu, hide the dropdown menu
-				  servicesDropdown.addEventListener('mouseleave', function() {
-					this.setAttribute('aria-expanded', 'false');
-					this.nextElementSibling.classList.remove('show');
-				  });
-				}
-			  </script>
+			
 			<!-- TOGGLE MENU CLOSE -->
 		</div>
 
@@ -160,80 +136,80 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 	
 	
 
-	<!-- FOOTER SECTION START -->
-	<footer class="bg-dark text-white " id="footer">
+	 <!-- FOOTER SECTION START -->
+	 <footer class="bg-dark text-white " id="footer">
 		<div class="container">
-		<div class="row mb-2">
+		  <div class="row mb-2">
 			<div class="col-md-3 mt-5">
-			<h4>About Us</h4>
-			<hr />
-			<p>At <b>Liquid Leads</b>, we are dedicated to propelling pool builders to unparalleled success through strategic marketing solutions.
-	
-			</p>
-			<!-- FACEBOOK SECTION -->
-			<a href="https://www.facebook.com/LiquidLeadsmarketing">
+			  <h4>About Us</h4>
+			  <hr />
+			  <p>At <b>Liquid Leads</b>, we are dedicated to propelling pool builders to unparalleled success through strategic marketing solutions.
+  
+			  </p>
+			  <!-- FACEBOOK SECTION -->
+			  <a href="https://www.facebook.com/LiquidLeadsmarketing">
 				<i class="fa-brands fa-facebook fa-2x"></i>
-			</a>
-	
-			<!-- INSTAGRAM SECTION  -->
-			<a href="https://www.instagram.com/liquid_leads/">
+			  </a>
+  
+			  <!-- INSTAGRAM SECTION  -->
+			  <a href="https://www.instagram.com/liquid_leads/">
 				<i class="fa-brands fa-instagram fa-2x"></i>
-			
-			
-			</a>
-	
-			<!-- TWITTER SECTION -->
-			<a href="https://twitter.com/LiquidLeads_">
+			  
+			  
+			  </a>
+  
+			  <!-- TWITTER SECTION -->
+			  <a href="https://twitter.com/LiquidLeads_">
 				<i class="fa-brands fa-twitter fa-2x"></i>
 				
-			<!-- LINKEDIN SECTION -->
-			</a>
-			<!-- <a href="#">
+			  <!-- LINKEDIN SECTION -->
+			  </a>
+			  <!-- <a href="#">
 				<i class="fa-brands fa-linkedin fa-2x"></i>
-			</a> -->
-	
-			<!-- WHATSAPP SECTION -->
-			<!-- <a href="#">
+			  </a> -->
+  
+			  <!-- WHATSAPP SECTION -->
+			  <!-- <a href="#">
 				<i class="fa-brands fa-whatsapp fa-2x"></i>
-			</a> -->
+			  </a> -->
 				
 			</div>
 			<div class="col-md-3 mt-5">
-			<h4>Quick Links</h4>
-			<hr />
-			<ul class="navbar-nav">
-				<li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
-				<li class="nav-item"><a href="/about.html" class="nav-link">About</a></li>
-				<li class="nav-item"><a href="/services.html" class="nav-link">Services</a> </li>
-				<li class="nav-item"><a href="/contact.html" class="nav-link">Contact</a> </li>
-			</ul>
+			  <h4>Quick Links</h4>
+			  <hr />
+			  <ul class="navbar-nav">
+				<li class="nav-item"><a href="./" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="./about" class="nav-link">About</a></li>
+				<li class="nav-item"><a href="./services" class="nav-link">Services</a> </li>
+				<li class="nav-item"><a href="./contact" class="nav-link">Contact</a> </li>
+			  </ul>
 			</div>
 			
 			<div class="col-md-3 mt-5">
-			<h4>Privacy and Terms</h4>
-			<hr />
-			<ul class="navbar-nav">
-				<li class="nav-item"><a href="/privacy-policy" class="nav-link">Privacy Policy</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Terms & Coniditions</a></li>
+			  <h4>Privacy and Terms</h4>
+			  <hr />
+			  <ul class="navbar-nav">
+				<li class="nav-item"><a href="./privacy-policy" class="nav-link">Privacy Policy</a></li>
+				<li class="nav-item"><a href="./terms-conditions" class="nav-link">Terms & Coniditions</a></li>
 				<!-- <li class="nav-item"><a href="#" class="nav-link">API Documentation</a> </li> -->
-			</ul>
+			  </ul>
 			</div>
 			<div class="col-md-3 mt-5">
-			<h4>Contact Info</h4>
-			<hr />
-			<p>
+			  <h4>Contact Info</h4>
+			  <hr />
+			  <p class="text-white">
 				Spring, TX 77373 <br />
 				Call Us Now +1 (832) 510-7123 <br />
 				info@liquidleads.us
-			</p>
+			  </p>
 			</div>
-		</div>
+		  </div>
 		</div>
 		<div class="bg-dark text-white text-center py-4" id="copyright">
-		Copyright &copy; 2023 Liquid Leads. All Rights Reserved.
+		  Copyright &copy; 2023 Liquid Leads. All Rights Reserved.
 		</div>
-	</footer>
-	<!-- FOOTER SECTION CLOSE -->
+	  </footer>
+	  <!-- FOOTER SECTION CLOSE -->
 	 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
