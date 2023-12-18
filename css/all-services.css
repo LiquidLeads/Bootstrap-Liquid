@@ -26,12 +26,12 @@ footer a i {
 }
 
 footer li:hover {
-	color: hsl(24, 83%, 65%);
+	color: hsl(198, 100%, 43%);
 	transition: 0.2s;
   }
   
   footer i:hover {
-	color: hsl(24, 83%, 65%);
+	color: hsl(198, 100%, 43%);
 	transition: 0.2s;
   }
 
