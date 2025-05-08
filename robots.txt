@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /.old/
+Disallow: /Tests/
+Disallow: /pages/
+Disallow: /extras.md/
+Disallow: /README.md/
+Disallow: /*.md$
+Disallow: /drafts/
+Disallow: /ticket-form.html/
+Disallow: /digital-marketing.html/
+Disallow: /datacenter.html/
+Disallow: /telecom.html/
