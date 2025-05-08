@@ -10,3 +10,4 @@ Disallow: /ticket-form.html/
 Disallow: /digital-marketing.html/
 Disallow: /datacenter.html/
 Disallow: /telecom.html/
+Disallow: /landing.html/
