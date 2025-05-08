@@ -235,9 +235,9 @@ footer p {
     background-color:hsl(198, 100%, 43%);
     border: 1px solid hsl(198, 100%, 43%);
 }
-.fa-square {
+/* .fa-square {
 
-}
+} */
 @media screen and (min-width: var(--laptop-min)) and (max-width: var(--laptop-max)) {
     
     

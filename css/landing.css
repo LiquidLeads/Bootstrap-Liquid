@@ -1,0 +1,176 @@
+@import "./.fonts.css";
+:root {
+  --mobile-min: 0px;
+  --mobile-max: 767px;
+
+  --tablet-min: 768px;
+  --tablet-max: 991px;
+
+  --laptop-min: 992px;
+  --laptop-max: 1199px;
+
+  --desktop-min: 1200px;
+}
+
+body {
+	background: hsl(233, 47%, 96%);
+	font-family: 'Montserrat', sans-serif;
+}
+h3,h4 {
+	font-family: 'TheBoldFont';
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;  /* Removes underline */
+  color: inherit;         /* Inherits the text color from its parent */
+}
+#steps {
+	color: hsl(198, 100%, 43%);
+}
+
+hr {
+	border: 1.5px solid hsl(198, 100%, 43%)
+}
+
+footer a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+footer a i {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  color: white;
+}
+
+footer li:hover {
+	color: hsl(198, 100%, 43%);
+	transition: 0.2s;
+  }
+  
+  footer i:hover {
+	color: hsl(198, 100%, 43%);
+	transition: 0.2s;
+  }
+  
+
+#footer {
+  color: hsl(0, 0%, 100%);
+}
+
+#copyright {
+  border-top: 1px solid hsl(0, 0%, 20%);
+}
+
+#navbar-color {
+	background-color:hsl(208, 75%, 35%);
+}
+
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid hsl(0, 0%, 100%);
+	outline: none;
+	box-shadow: none;
+}
+
+.carousel-indicators .active {
+	background-color: hsl(198, 100%, 43%);
+}
+
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='hsl(198, 100%, 43%)'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='hsl(198, 100%, 43%)'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+#button {
+	background-color:hsl(18, 100%, 62%);
+	border-color: hsl(18, 100%, 62%);
+}
+
+#nav_object {
+	position: relative;
+}
+
+/* .dropdown-toggle::after {
+    border-top: none;
+} */
+
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	background-color: hsl(208, 75%, 35%);
+}
+
+.dropdown-item:hover {
+	background-color: hsl(198, 100%, 43%);
+}
+#services-link {
+    color: hsl(208, 96%, 29%);
+}
+#nav_object {
+	position: relative;
+}
+
+.dropdown-menu{
+    --bs-dropdown-bg: hsl(208, 75%, 35%);
+}
+@media (min-width: 576px) {
+	#nav_object::after {
+		content: '';
+		opacity: 0;
+		transition: all 0.2s;
+		height: 2px;
+		width: 100%;
+		background: hsl(198, 100%, 43%);
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	
+	#nav_object:hover::after {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.dropdown:hover > .dropdown-menu {
+		display: block;
+		margin-top: 0;
+	}
+}
+/* NEW */
+
+footer p {
+  padding-top: 8px !important;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  footer h4 {
+    font-size: 1rem !important;
+  }
+}
+
+#button {
+    background-color:hsl(208, 96%, 29%);
+    border: 1px solid hsl(208, 96%, 29%);
+}
+
+#button:hover {
+    background-color:hsl(198, 100%, 43%);
+    border: 1px solid hsl(198, 100%, 43%);
+}
+/* MOBILE RESPONSIVENESS */
+@media screen and (min-width: var(--mobile-min)) and (max-width:  var(--mobile-max)) {}
+/* TABLET RESPONSIVENESS */
+@media screen and (min-width: var(--tablet-min)) and (max-width:  var(--tablet-max)) {}
+/* LAPTOP RESPONSIVENESS */
+@media screen and (min-width: var(--laptop-min)) and (max-width:  var(--laptop-max)) {}
+/* DESKTOP RESPONSIVENESS */
