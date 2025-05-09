@@ -168,9 +168,18 @@ footer p {
     border: 1px solid hsl(198, 100%, 43%);
 }
 /* MOBILE RESPONSIVENESS */
-@media screen and (min-width: var(--mobile-min)) and (max-width:  var(--mobile-max)) {}
+@media screen and (min-width: 300px) and (max-width:  767px) {
+	.cta-button {
+		font-size: 0.85rem;
+    	padding: 0.5rem 1rem;
+	}
+	.cta-button-container {
+		display: flex;
+  		justify-content: flex-start;
+	}
+}
 /* TABLET RESPONSIVENESS */
-@media screen and (min-width: var(--tablet-min)) and (max-width:  var(--tablet-max)) {}
+@media screen and (min-width: 768px) and (max-width:  991px) {}
 /* LAPTOP RESPONSIVENESS */
-@media screen and (min-width: var(--laptop-min)) and (max-width:  var(--laptop-max)) {}
+@media screen and (min-width: 992px) and (max-width:  1199px) {}
 /* DESKTOP RESPONSIVENESS */
