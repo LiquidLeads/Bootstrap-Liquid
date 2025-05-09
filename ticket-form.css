@@ -1,4 +1,4 @@
-@import "./.fonts.css";
+@import "./fonts.css";
 
 .form-control {
 	border: 2px solid hsl(0, 0%, 0%);

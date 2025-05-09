@@ -1,4 +1,4 @@
-@import "./.fonts.css";
+@import "./fonts.css";
 :root {
   --desktop-min: 1200px;
 	--laptop-min: 900px;

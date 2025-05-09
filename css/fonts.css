@@ -1,0 +1,10 @@
+/* Montserrat */
+@import "./fonts.css";
+
+@font-face {
+  font-family: 'TheBoldFont';
+  src: url('../fonts/the_bold_font/THEBOLDFONT-FREEVERSION.woff') format('woff');
+       
+  font-weight: normal;
+  font-style: normal;
+}
