@@ -168,6 +168,13 @@ footer p {
     background-color:hsl(198, 100%, 43%);
     border: 1px solid hsl(198, 100%, 43%);
 }
+/* .custom-border {
+  border: 1px solid hsl(198, 100%, 43%); Replace with your desired hex, rgb, or hsl color
+  border-radius: 8px;        /* Optional: rounds the corners */
+ 
+.custom-border iframe{
+  border-radius: 8px;        /* Optional: rounds the corners */
+}
 /* MOBILE RESPONSIVENESS */
 @media screen and (min-width: 300px) and (max-width:  767px) {
 	.vsl-wrapper {
