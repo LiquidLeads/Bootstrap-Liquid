@@ -170,14 +170,34 @@ footer p {
 }
 /* MOBILE RESPONSIVENESS */
 @media screen and (min-width: 300px) and (max-width:  767px) {
-	.cta-button {
+	.vsl-wrapper {
+		width: 99%;
+		font-size: 0.45rem !important;
+		text-align: left;
+		
+	}
+	.cta-button-container {
+    text-align: left;
+	
+	
+  }
+
+  .cta-button-container .btn {
+    display: inline-block;
+    margin-left: 0;
+  }
+	#headings {
+		font-size: 0.75rem !important;
+	}
+	
+	/* .cta-button {		
 		font-size: 0.85rem;
     	padding: 0.5rem 1rem;
 	}
 	.cta-button-container {
 		display: flex;
   		justify-content: flex-start;
-	}
+	} */
 }
 /* TABLET RESPONSIVENESS */
 @media screen and (min-width: 768px) and (max-width:  991px) {}
