@@ -27,9 +27,10 @@ a {
   text-decoration: none;  /* Removes underline */
   color: inherit;         /* Inherits the text color from its parent */
 }
-#steps {
+.text-blue {
 	color: hsl(198, 100%, 43%);
 }
+
 
 hr {
 	border: 1.5px solid hsl(198, 100%, 43%)
