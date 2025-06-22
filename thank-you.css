@@ -82,7 +82,7 @@ body {
 }
 
 #navbar-color {
-    background-color: hsl(210, 60%, 18%);
+    background-color: hsl(208, 75%, 35%);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -168,7 +168,7 @@ footer a  i {
   
 .dropdown-menu {
     /* display: block; */
-    background-color: hsl(210, 60%, 18%);
+    background-color: hsl(208, 75%, 35%);
     margin-top: 0;
     width: 175px;
 

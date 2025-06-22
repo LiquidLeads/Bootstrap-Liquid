@@ -103,7 +103,7 @@ footer li:hover {
 } */
 
 #navbar-color {
-	background-color:hsl(210, 60%, 18%);
+	background-color:hsl(208, 75%, 35%);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -144,7 +144,7 @@ footer li:hover {
 
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background-color: hsl(210, 60%, 18%);
+	background-color: hsl(208, 75%, 35%);
 }
 
 .dropdown-item:hover {
@@ -158,7 +158,7 @@ footer li:hover {
 }
 
 .dropdown-menu{
-    --bs-dropdown-bg: hsl(210, 60%, 18%);
+    --bs-dropdown-bg: hsl(208, 75%, 35%);
 }
 @media (min-width: 576px) {
 	#nav_object::after {
@@ -346,6 +346,3 @@ footer p {
         }
     }
 }
-
-/*? ORIGINAL LIQUID LEADS NAV BAR BLUE */
-/*? hsl(208, 75%, 35%) */

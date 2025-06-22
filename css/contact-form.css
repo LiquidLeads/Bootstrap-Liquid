@@ -5,14 +5,14 @@ body {
 }
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background-color: hsl(210, 60%, 18%);
+	background-color: hsl(208, 75%, 35%);
 }
 
 .dropdown-item:hover {
 	background-color: hsl(198, 100%, 43%);
 }
 .dropdown-menu{
-    --bs-dropdown-bg: hsl(210, 60%, 18%);
+    --bs-dropdown-bg: hsl(208, 75%, 35%);
 }
 
 .form-area {

@@ -32,7 +32,7 @@ body {
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  background-color: hsl(210, 60%, 18%);
+  background-color: hsl(208, 75%, 35%);
 }
 
 .dropdown-item:hover {
@@ -40,7 +40,7 @@ body {
 }
 
 .dropdown-menu{
-  --bs-dropdown-bg: hsl(210, 60%, 18%);
+  --bs-dropdown-bg: hsl(208, 75%, 35%);
 }
 
 h3:after {
@@ -62,7 +62,7 @@ h3 {
 }
 
 #navbar-color {
-  background-color: hsl(210, 60%, 18%);
+  background-color: hsl(208, 75%, 35%);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -164,7 +164,7 @@ footer i:hover {
 }
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background-color: hsl(210, 60%, 18%);
+	background-color: hsl(208, 75%, 35%);
 }
 
 /* #nav_object:hover {
