@@ -86,7 +86,7 @@ footer li:hover {
 }
 
 .dropdown-menu{
-    --bs-dropdown-bg: hsl(210, 60%, 18%);
+    --bs-dropdown-bg: hsl(210, 60%, 18%) !important;
 }
 #crd {
 	background: hsl(0, 0%, 100%);
