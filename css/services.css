@@ -76,7 +76,7 @@ footer a {
 	object-fit: cover;
 }
 .dropdown-menu{
-    --bs-dropdown-bg: hsl(208, 75%, 35%);
+    --bs-dropdown-bg: hsl(210, 60%, 18%);
 }
 
 @media (min-width: 576px) {

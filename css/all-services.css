@@ -86,7 +86,7 @@ footer li:hover {
 }
 
 .dropdown-menu{
-    --bs-dropdown-bg: hsl(208, 75%, 35%);
+    --bs-dropdown-bg: hsl(210, 60%, 18%) !important;
 }
 #crd {
 	background: hsl(0, 0%, 100%);
@@ -130,7 +130,7 @@ h3 {
 @media (min-width: 576px) {
 	.dropdown:hover > .dropdown-menu {
 		display: block;
-		background-color: hsl(208, 75%, 35%);
+		background-color: hsl(210, 60%, 18%);
 		margin-top: 0;
 		width: 175px;
 
@@ -165,7 +165,7 @@ h3 {
 }
 
 #navbar-color {
-	background-color: hsl(208, 75%, 35%);
+	background-color: hsl(210, 60%, 18%);
 }
 
 .navbar-light .navbar-toggler-icon {
