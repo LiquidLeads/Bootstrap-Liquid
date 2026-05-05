@@ -11,3 +11,7 @@ Disallow: /digital-marketing.html/
 Disallow: /datacenter.html/
 Disallow: /telecom.html/
 Disallow: /landing.html/
+Disallow: /seo.html/
+Disallow: /ai-automation.html/
+Disallow: /employee-gen.html/
+Disallow: /services.html/
