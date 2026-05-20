@@ -210,6 +210,17 @@ footer p {
   		justify-content: flex-start;
 	} */
 }
+
+.crd {
+	background: hsl(233, 47%, 96%);
+	transition: all;
+}
+
+.crd:hover {
+	background: hsl(198, 100%, 43%);
+	color: #fff;
+	transition: 0.5s;
+} 
 /* TABLET RESPONSIVENESS */
 @media screen and (min-width: 768px) and (max-width:  991px) {}
 /* LAPTOP RESPONSIVENESS */
